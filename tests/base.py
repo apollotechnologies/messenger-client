@@ -1,0 +1,4 @@
+from messenger_client.client import MessengerClient
+c = MessengerClient('EAADbqnaIoG0BANUTQbaQNOdvF1byJgcBjuZCKv249inHtckiuohjZAvovQw9rX28bbh0JQGTXGdd1MwdLtEJCk0mkmfgl6EgBN1HUlIsQQJKFCv3KCccVWSnJuK4sUbmkkZCqHqA8OGsJGwvksfGtZBXMfEnuBiH4FlT1hyRGQZDZD')
+from messenger_client.content_types import TextMessage, ImageAttachment
+print c.send('1322025827883809', ImageAttachment(url='https://scontent.fsbz1-2.fna.fbcdn.net/v/t39.2365-6/13503473_1584526905179825_88080075_n.png?oh=bf0aeae2fce5916b647f87a4a8096cb9&oe=59C39CD3'))
